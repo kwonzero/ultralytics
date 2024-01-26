@@ -3,7 +3,7 @@ import torch.nn as nn
 import math
 import torch.nn.functional as F
 
-__all__ = ('CoordAtt')
+__all__ = ("CoordAtt")
 
 class CoordAtt(nn.Module):
     def __init__(self, inp, oup, reduction=32):
