@@ -16,7 +16,7 @@ Example:
     os.system(f'onnxsim {f} {f} && open {f}')
     ```
 """
-from coordatt import CoordAtt
+from .coordatt import CoordAtt
 
 from .block import (
     C1,
