@@ -16,6 +16,7 @@ Example:
     os.system(f'onnxsim {f} {f} && open {f}')
     ```
 """
+from .coordatt import CoordAtt
 
 from .block import (
     C1,
@@ -114,4 +115,5 @@ __all__ = (
     "MLP",
     "ResNetLayer",
     "OBB",
+    "CoordAtt"
 )
